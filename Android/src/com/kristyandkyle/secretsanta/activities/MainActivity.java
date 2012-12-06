@@ -1,4 +1,8 @@
-package com.kristyandkyle.secretsanta;
+package com.kristyandkyle.secretsanta.activities;
+
+import com.kristyandkyle.secretsanta.R;
+import com.kristyandkyle.secretsanta.R.layout;
+import com.kristyandkyle.secretsanta.R.menu;
 
 import android.os.Bundle;
 import android.app.Activity;
