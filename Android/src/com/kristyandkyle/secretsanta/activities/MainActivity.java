@@ -5,6 +5,8 @@ import com.kristyandkyle.secretsanta.R;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AuthenticatedActivity {
 
@@ -21,4 +23,19 @@ public class MainActivity extends AuthenticatedActivity {
         
         return super.onCreateOptionsMenu(menu);
     }
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+			case android.R.id.home:
+				Toast.makeText(this, "Tapped home", Toast.LENGTH_SHORT).show();
+				break;
+	
+			default:
+				break;
+		}
+		
+		return super.onOptionsItemSelected(item);
+	}
+	
 }
