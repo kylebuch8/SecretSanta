@@ -68,8 +68,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     public static final class layout {
         public static final int actionbar_compat=0x7f030000;
         public static final int actionbar_indeterminate_progress=0x7f030001;
-        public static final int activity_main=0x7f030002;
-        public static final int main=0x7f030003;
+        public static final int activity_login=0x7f030002;
+        public static final int activity_main=0x7f030003;
+        public static final int main=0x7f030004;
     }
     public static final class menu {
         public static final int activity_main=0x7f090000;
