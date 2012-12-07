@@ -23,10 +23,11 @@ int id actionbar_compat_item_refresh 0x7f060003
 int id actionbar_compat_item_refresh_progress 0x7f060002
 int id actionbar_compat_title 0x7f060001
 int id menu_refresh 0x7f060004
-int id menu_search 0x7f060007
-int id menu_settings 0x7f060006
-int id menu_share 0x7f060008
-int id toggle_title 0x7f060005
+int id menu_search 0x7f060008
+int id menu_settings 0x7f060007
+int id menu_share 0x7f060009
+int id textView1 0x7f060005
+int id toggle_title 0x7f060006
 int layout actionbar_compat 0x7f030000
 int layout actionbar_indeterminate_progress 0x7f030001
 int layout activity_login 0x7f030002
