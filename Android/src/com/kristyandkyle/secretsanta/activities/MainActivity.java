@@ -1,14 +1,12 @@
 package com.kristyandkyle.secretsanta.activities;
 
 import com.kristyandkyle.secretsanta.R;
-import com.kristyandkyle.secretsanta.R.layout;
-import com.kristyandkyle.secretsanta.R.menu;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.view.Menu;
+import android.view.MenuInflater;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AuthenticatedActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -18,7 +16,9 @@ public class MainActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_main, menu);
-        return true;
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.main, menu);
+        
+        return super.onCreateOptionsMenu(menu);
     }
 }
