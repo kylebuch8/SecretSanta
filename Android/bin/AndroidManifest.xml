@@ -23,6 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.LoginActivity" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity android:name=".activities.WebViewActivity" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
     </application>
 
 </manifest>
