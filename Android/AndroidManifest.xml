@@ -22,8 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.LoginActivity" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
-        <activity android:name=".activities.WebViewActivity" android:theme="@android:style/Theme.Light.NoTitleBar"></activity>
+        <activity android:name=".activities.LoginActivity"></activity>
+        <activity android:name=".activities.WebViewActivity"></activity>
     </application>
 
 </manifest>
