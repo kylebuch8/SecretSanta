@@ -1,7 +1,7 @@
 package com.kristyandkyle.secretsanta.activities;
 
-import com.example.android.actionbarcompat.ActionBarActivity;
 import com.kristyandkyle.secretsanta.SecretSantaApplication;
+import com.example.android.actionbarcompat.ActionBarActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
